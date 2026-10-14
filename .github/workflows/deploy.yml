@@ -23,7 +23,7 @@ jobs:
       # Change this to /YOUR-REPOSITORY-NAME/ for a project repository.
       - run: npm run build
         env:
-          VITE_BASE_PATH: /Fashionier-Zone/
+          VITE_BASE_PATH: /fashionierZone/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
